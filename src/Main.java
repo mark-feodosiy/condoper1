@@ -95,7 +95,6 @@ public class Main {
                        } else {
                     System.out.println("Самое большое число " + three);
                 }
-
             }
 
         }
