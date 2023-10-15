@@ -85,7 +85,7 @@ public class Main {
         // Задача № 7
             {
                 int one = 7;
-                int two = 10;
+                int two = 11;
                 int three = 9;
                 if ((one > two) && (two > three)) {
                     System.out.println("Самое большое число " + one);
