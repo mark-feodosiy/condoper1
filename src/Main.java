@@ -84,16 +84,19 @@ public class Main {
             System.out.println();
         // Задача № 7
             {
-            int one = 1;
-            int two = 2;
-            int three = 3;
-            if (one > two) && ()
-
-            {
-                    System.out.println("Свободных мест в вагоне нет. Вагон полностью забит");
-                } else {
-                    System.out.println("В вагоне есть свободное место");
+                int one = 7;
+                int two = 10;
+                int three = 9;
+                if ((one > two) && (two > three)) {
+                    System.out.println("Самое большое число " + one);
                 }
+                else if ((one < two) && (two > three)) {
+                        System.out.println("Самое большое число " + two);
+                       } else {
+                    System.out.println("Самое большое число " + three);
+                }
+
+            }
 
         }
 
